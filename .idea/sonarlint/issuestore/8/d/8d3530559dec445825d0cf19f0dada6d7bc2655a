@@ -1,3 +1,16 @@
 
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8¹«ü¨ó2J$78df921d-d0f3-46a5-907f-ac16dc2fbdfe
+˜
+java:S1192"PDefine a constant instead of duplicating this literal "Stack underflow" 3 times.(Ä…Ç²ûÿÿÿÿ8Æ“§Êó2J$de5bf927-f553-4d58-b993-29ede30b27c4
+r	java:S106"+Replace this use of System.out by a logger.(Ä…Ç²ûÿÿÿÿ8æœ§Êó2J$d7c8b119-729c-4557-8473-31dc15e961b9
+m	java:S106"+Replace this use of System.out by a logger.(Àßšõ8Ô§Êó2J$b636f904-7c1b-47f1-ad78-733645698cc9
+m	java:S106""+Replace this use of System.out by a logger.(õ¥¢8© §Êó2J$896a6988-7ec0-4682-a94e-66abd4e0609b
+r	java:S106$"+Replace this use of System.out by a logger.(Ä…Ç²ûÿÿÿÿ8© §Êó2J$2fd07753-9015-4f4e-9244-378512cbe5b6
+r	java:S106*"+Replace this use of System.out by a logger.(Ä…Ç²ûÿÿÿÿ8© §Êó2J$a03e38a0-598c-4925-bcab-e24e79926217
+r	java:S106-"+Replace this use of System.out by a logger.(æ•€åûÿÿÿÿ8© §Êó2J$47fc95ad-8a39-4802-a845-32c57451e1d9
+r	java:S1060"+Replace this use of System.out by a logger.(¶†¢µÿÿÿÿÿ8¹ §Êó2J$1d9d6ae9-62de-4655-a041-f436d07222ce
+m	java:S106H"+Replace this use of System.out by a logger.(¯¢©ó8È §Êó2J$7dee8dc6-b222-49ec-b452-7ebf8764e819
+r	java:S106I"+Replace this use of System.out by a logger.(‰É†şÿÿÿÿ8Ø §Êó2J$0d3f62e1-c4e2-4dfc-92b0-efb5edb0dd03
+r	java:S106K"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8Ø §Êó2J$8eb2e4ce-7df8-429f-aca9-a58696d78cb9
+r	java:S106N"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ç §Êó2J$1d78959d-4721-47e0-9d93-44c68a2753c4
+r	java:S106Q"+Replace this use of System.out by a logger.(–èÇˆüÿÿÿÿ8ç §Êó2J$29689b37-45cd-49fd-8347-58a194ccce2a
+r	java:S106T"+Replace this use of System.out by a logger.(¼¬ß£úÿÿÿÿ8ç §Êó2J$99e1b183-7666-4a14-8964-7bcac5bb54bc
