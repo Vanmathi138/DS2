@@ -91,6 +91,12 @@ public class Stack {
         System.out.println("Initial Queue:");
         System.out.println(queue);
 
+        System.out.println("\nDequeuing elements:");
+        while (!queue.isEmpty()) {
+            queue.dequeue();
+            System.out.println("Queue after dequeue: " + queue);
+        }
+
     }
 }
 
@@ -109,6 +115,34 @@ class Queue {
         }
         rear.next = newNode;
         rear = newNode;
+    }
+    void dequeue() {
+        if (isEmpty()) {
+            System.out.println("Queue underflow");
+            return;
+        }
+        System.out.println("Dequeued: " + front.data);
+        front = front.next;
+        if (front == null) {
+            rear = null;  // Important to reset rear if the queue is empty
+        }
+    }
+
+    void display() {
+        if (isEmpty()) {
+            System.out.println("Queue is empty");
+            return;
+        }
+        Node current = front;
+        System.out.print("Queue: ");
+        while (current != null) {
+            System.out.print(current.data);
+            if (current.next != null) {
+                System.out.print(" -> ");
+            }
+            current = current.next;
+        }
+        System.out.println();
     }
 
     public String toString() {
