@@ -62,7 +62,6 @@ public class Stack {
         }
         return sb.toString();
     }
-
     public static void main(String[] args) {
         Stack stack = new Stack();
         stack.push(70);
@@ -83,5 +82,46 @@ public class Stack {
             stack.pop();
             System.out.println("Stack after pop: " + stack);
         }
+
+        Queue queue = new Queue();
+        queue.enqueue(56);
+        queue.enqueue(30);
+        queue.enqueue(70);
+
+        System.out.println("Initial Queue:");
+        System.out.println(queue);
+
     }
 }
+
+class Queue {
+    Node front, rear;
+
+    boolean isEmpty() {
+        return front == null;
+    }
+
+    void enqueue(int newData) {
+        Node newNode = new Node(newData);
+        if (rear == null) {
+            front = rear = newNode;
+            return;
+        }
+        rear.next = newNode;
+        rear = newNode;
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        Node c = front;
+        while (c != null) {
+            sb.append(c.data);
+            if (c.next != null) {
+                sb.append(" -> ");
+            }
+            c = c.next;
+        }
+        return sb.toString();
+    }
+}
+
